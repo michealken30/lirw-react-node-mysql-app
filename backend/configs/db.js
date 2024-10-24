@@ -5,7 +5,7 @@ const db = mysql.createConnection({
    port: '3306',
    user: 'root',
    password: '12345678',
-   database: 'react_node_app'
+   database: 'react-node-app'
 });
 
 module.exports = db;
